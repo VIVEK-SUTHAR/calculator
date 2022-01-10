@@ -35,6 +35,7 @@ function App() {
 	}
 	return (
 		<div className="App">
+			<p>Hi vivek</p>
 			<div className="Calculator">
 				<div className="display">
 					{result ? <span>{result}</span> : ' '}<br/> {calc || "0"}
